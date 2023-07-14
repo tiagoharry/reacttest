@@ -3,7 +3,7 @@ import { Container, Nav } from "./styles"
 export function Header() {
   return (
     <Container>
-      <h1>LOGO</h1>
+      <h1>TESTE</h1>
 
       <Nav>
           <a href="http://">Home</a>

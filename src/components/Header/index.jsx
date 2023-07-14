@@ -1,9 +1,10 @@
 import { Container, Nav } from "./styles"
+import Logo from '../../assets/keilaLogo.svg'
 
 export function Header() {
   return (
     <Container>
-      <h1>TESTE</h1>
+      <img src={Logo} alt="" />
 
       <Nav>
           <a href="http://">Home</a>

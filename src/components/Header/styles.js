@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  background-color: gray;
+  background-color: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   height: 150px;
   display: flex;
   justify-content: space-around;
@@ -15,7 +16,14 @@ export const Nav = styled.div`
 
    > a {
     text-decoration: none;
-    font-size: 20px;
-    color: antiquewhite;
+    font-size: 16px;
+    color: #17171C;
+    font-weight: 700;
+    line-height: 120%;
+    transition: 0.2s ease;
+   }
+
+   > a:hover {
+    color:  #F6257F;
    }
 `

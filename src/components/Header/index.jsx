@@ -1,4 +1,5 @@
-import { Container, Nav } from "./styles"
+import { Container, Nav, CadastroLogin } from "./styles"
+
 import Logo from '../../assets/keilaLogo.svg'
 
 export function Header() {
@@ -7,10 +8,15 @@ export function Header() {
       <img src={Logo} alt="" />
 
       <Nav>
-          <a href="http://">Home</a>
-          <a href="http://">Sobre</a>
-          <a href="http://">Contato</a>
+          <a href="http://">INÍCIO</a>
+          <a href="http://">CASTEGORIAS</a>
+          <a href="http://">CARRINHO</a>
       </Nav>
+
+      <CadastroLogin>
+        <a href="">CADASTRO</a>
+        <a href="">LOGIN</a>
+      </CadastroLogin>
 
     </Container>
 

@@ -28,10 +28,10 @@ export const SlideText = styled.div`
   }
 
   @media (max-width: 700px) {
-    gap: 280px;
-    margin-left: 15px;
+    gap: 210px;
+    margin-left: 10px;
     p {
-      font-size: 13px;
+      font-size: 12px;
     }
   }
 `

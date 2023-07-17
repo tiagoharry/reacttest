@@ -31,13 +31,13 @@ export const Outdoor = styled.div`
 
  @media (max-width: 700px) {
   > img {
-     width: 460px;
+     width: 380px;
     }
 
     > figcaption {
       font-size: 12px;
-      top: 65px;
-      left: 25px;
+      top: 55px;
+      left: 15px;
     }
  }
 `

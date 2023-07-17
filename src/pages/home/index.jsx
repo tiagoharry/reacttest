@@ -3,7 +3,8 @@ import { Slide } from "../../components/Slide"
 import { Stroke } from '../../components/Stroke'
 import { ComprarButton } from "../../components/ComprarButton"
 import { CarrinhoButton } from "../../components/CarrinhoButton"
-import { Container, Nav, Novidades } from "./styles"
+import { Container, Nav, Novidades, Colection } from "./styles"
+import { Poster } from '../../components/Anuncio'
 
 import Rafaela from '../../assets/colecao1/conjunto_Rafaela.png'
 import Marcela from '../../assets/colecao1/conjunto_Marcela.png'
@@ -13,7 +14,7 @@ import Cristian from '../../assets/colecao1/conjunto_Cristian.png'
 import Rodrigo from '../../assets/colecao1/conjunto_Rodrigo.png'
 import Martin from '../../assets/colecao1/conjunto_Martin.png'
 import Tiago from '../../assets/colecao1/conjunto_Tiago.png'
-import Anuncio from '../../assets/anuncioHome.png'
+
 
 import Oculos from '../../assets/colecao2/oculos.png'
 import Relogio from '../../assets/colecao2/relogio.png'
@@ -155,15 +156,13 @@ export function Home() {
       </Novidades>
 
       <Stroke />
-      <div className="anuncio">
-        <img src={Anuncio} alt="" />
-      </div>
+      <Poster />
 
       <div className="textCall">
         <p>Acompanhe nossa coleção de acessórios masculinos e femininos.</p>
       </div>
 
-      <div className="colection">
+     <Colection>
         <div className="colection_product">
           <img src={Oculos} alt="" />
           <p>Óculos</p>
@@ -184,7 +183,7 @@ export function Home() {
           <p>Bolsa</p>
         </div>
 
-      </div>
+      </Colection>
 
     </Container >
   )

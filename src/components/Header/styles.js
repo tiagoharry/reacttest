@@ -15,18 +15,9 @@ export const Nav = styled.div`
    display: flex;
    gap: 16px;
 
-   /*> a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #17171C;
-    font-weight: 700;
-    line-height: 120%;
-    transition: 0.2s ease;
+   @media (max-width: 700px) {
+    display: none;
    }
-
-   > a:hover {
-    color:  #F6257F;
-   }*/
 `
 
 export const CadastroLogin = styled.div`
@@ -46,5 +37,9 @@ export const CadastroLogin = styled.div`
     border-radius: 4px;
     color: #FFF;
     padding:9px 16px;
+   }
+
+   @media (max-width: 700px) {
+    display: none;
    }
 `

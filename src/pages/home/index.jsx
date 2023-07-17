@@ -5,6 +5,7 @@ import { ComprarButton } from "../../components/ComprarButton"
 import { CarrinhoButton } from "../../components/CarrinhoButton"
 import { Container, Nav, Novidades, Colection } from "./styles"
 import { Poster } from '../../components/Anuncio'
+import { Footer } from '../../components/Footer'
 
 import Rafaela from '../../assets/colecao1/conjunto_Rafaela.png'
 import Marcela from '../../assets/colecao1/conjunto_Marcela.png'
@@ -184,7 +185,7 @@ export function Home() {
         </div>
 
       </Colection>
-
+      <Footer />
     </Container >
   )
 }

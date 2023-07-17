@@ -74,7 +74,7 @@ export const Novidades = styled.div`
 export const Colection = styled.div` 
     display: flex;
     justify-content: center;
-    margin-bottom: 182px;
+    margin-bottom: 82px;
 
    
 

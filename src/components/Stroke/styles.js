@@ -8,6 +8,6 @@ export const Container = styled.div`
 
   @media (max-width: 700px) {
  
-     width: 480px;
+     width: 350px;
  }
 `

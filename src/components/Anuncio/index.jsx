@@ -1,10 +1,15 @@
-import { Container } from "./styles";
+import { Container, Outdoor } from "./styles";
 import Anuncio from '../../assets/anuncioHome.png'
 
 export function Poster() {
   return (
     <Container>
-      <img src={Anuncio} alt="" />
+      <Outdoor>
+        <img src={Anuncio} alt="" />
+        <figcaption>Veja nossos conjuntos<br />
+          de cama, mesa e banho.</figcaption>
+      </Outdoor>
+
     </Container>
   )
 }

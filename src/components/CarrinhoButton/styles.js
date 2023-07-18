@@ -9,5 +9,6 @@ export const Container = styled.div`
     border: 1px solid #F6257F;
     padding: 7px 16px;
     background-color: white;
+    cursor: pointer;
   }
 `

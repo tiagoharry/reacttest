@@ -1,19 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-
 margin-top: 48px;
 margin-bottom: 58px;
 position: relative;
 display: inline-block;
 text-align: center;
 width: 100%;
- 
 `
 
 export const Outdoor = styled.div`
  
-
   > img {
   width: 1120px;
  }

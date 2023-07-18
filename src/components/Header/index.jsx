@@ -1,4 +1,5 @@
 import { Container, Nav, CadastroLogin } from "./styles"
+import { Link } from 'react-router-dom'
 
 import Logo from '../../assets/keilaLogo.svg'
 
@@ -8,7 +9,7 @@ export function Header() {
       <img src={Logo} alt="" />
 
       <Nav>
-          <a href="http://">INÍCIO</a>
+          <Link to="/">INÍCIO</Link>
           <a href="http://">CASTEGORIAS</a>
           <a href="http://">CARRINHO</a>
       </Nav>

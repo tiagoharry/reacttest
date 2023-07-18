@@ -1,11 +1,13 @@
 import { Header } from "../../components/Header"
 import { Slide } from "../../components/Slide"
-import { Stroke } from '../../components/Stroke'
+import { Stroke } from "../../components/Stroke"
 import { ComprarButton } from "../../components/ComprarButton"
 import { CarrinhoButton } from "../../components/CarrinhoButton"
 import { Container, Nav, Novidades, Colection } from "./styles"
-import { Poster } from '../../components/Anuncio'
-import { Footer } from '../../components/Footer'
+import { Poster } from "../../components/Anuncio"
+import { Footer } from "../../components/Footer"
+
+//import { Link } from "react-router-dom"
 
 import Rafaela from '../../assets/colecao1/conjunto_Rafaela.png'
 import Marcela from '../../assets/colecao1/conjunto_Marcela.png'
@@ -29,9 +31,9 @@ export function Home() {
       <Slide />
       <Stroke />
       <Nav>
-        <a href="http://">Novidades</a>
-        <a href="http://">Ver todos</a>
-        <a href="http://">Coleção de outono</a>
+        <a href="/novodades">Novidades</a>
+        <a href="/todos">Ver todos</a>
+        <a href="/outono">Coleção de outono</a>
       </Nav>
       <Novidades>
 

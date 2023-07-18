@@ -6,8 +6,6 @@ export function Poster() {
     <Container>
       <Outdoor>
         <img src={Anuncio} alt="" />
-        <figcaption>Veja nossos conjuntos<br />
-          de cama, mesa e banho.</figcaption>
       </Outdoor>
 
     </Container>

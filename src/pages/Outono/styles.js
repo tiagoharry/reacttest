@@ -1,32 +1,9 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100%;
-
-  .anuncio {
-   margin-top: 48px;
-   margin-bottom: 48px;
-   display: flex;
-   justify-content: center;
+  > a {
+    margin-left: 500px
   }
-
-  .textCall {
-    display: flex;
-    justify-content: center;
-   text-align: center;
-    color: #F6257F;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 48px;
-  }  
-`
-
-export const Nav = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-top: 24px;
 `
 
 export const Novidades = styled.div`
@@ -96,4 +73,8 @@ export const Colection = styled.div`
         font-size: 20px;
       }
     }
+`
+
+export const Voltar = styled.div`
+  margin-left: 500px;
 `

@@ -7,12 +7,12 @@ export function Slide() {
     <Container>
       <SlideText>
         <div className="text_left">
-        <p>Descubra um novo jeito<br/>
-          de se vestir conosco!</p>
+        <figcaption>Descubra um novo jeito<br/>
+          de se vestir conosco!</figcaption>
         </div>
        <div className="text_right">
-       <p>As coleções de OUTONO<br/>
-          estão chegando!</p>
+       <figcaption>As coleções de OUTONO<br/>
+          estão chegando!</figcaption>
        </div>      
       </SlideText>
 
